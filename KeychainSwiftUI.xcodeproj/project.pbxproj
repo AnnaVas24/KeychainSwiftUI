@@ -11,6 +11,7 @@
 		5149B3102A03DA4300381EA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149B30F2A03DA4300381EA7 /* ContentView.swift */; };
 		5149B3122A03DA4400381EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5149B3112A03DA4400381EA7 /* Assets.xcassets */; };
 		5149B3152A03DA4400381EA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5149B3142A03DA4400381EA7 /* Preview Assets.xcassets */; };
+		5149B31C2A03DA6100381EA7 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149B31B2A03DA6100381EA7 /* KeychainManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5149B30F2A03DA4300381EA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5149B3112A03DA4400381EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5149B3142A03DA4400381EA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5149B31B2A03DA6100381EA7 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				5149B30D2A03DA4300381EA7 /* KeychainSwiftUIApp.swift */,
 				5149B30F2A03DA4300381EA7 /* ContentView.swift */,
+				5149B31B2A03DA6100381EA7 /* KeychainManager.swift */,
 				5149B3112A03DA4400381EA7 /* Assets.xcassets */,
 				5149B3132A03DA4400381EA7 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5149B3102A03DA4300381EA7 /* ContentView.swift in Sources */,
+				5149B31C2A03DA6100381EA7 /* KeychainManager.swift in Sources */,
 				5149B30E2A03DA4300381EA7 /* KeychainSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
